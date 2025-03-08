@@ -114,7 +114,6 @@ export default function Home() {
           Chandrappan AI
         </h1>
       </header>
-      </div>
     
     <div className="flex h-full flex-col">
       
