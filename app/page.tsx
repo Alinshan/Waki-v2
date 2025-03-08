@@ -233,7 +233,7 @@ export default function Home() {
           </form>
         </div>
 
-        <div className="flex w-full grow flex-col items-center justify-center pb-8 pt-4 text-center">
+    <div className="flex w-full grow flex-col items-center justify-center pb-8 pt-4 text-center">
   {!activeImage || !prompt ? (
     <div className="max-w-xl md:max-w-4xl lg:max-w-3xl">
       <p className="text-2xl font-bold text-blue-500 md:text-4xl lg:text-5xl">
@@ -248,6 +248,7 @@ export default function Home() {
     </div>
   ) : null}
 </div>
+
 
           ) : (
             <div className="mt-4 flex w-full max-w-4xl flex-col justify-center">
