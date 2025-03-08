@@ -2,7 +2,7 @@
 
 import CheckIcon from "@/components/icons/check-icon";
 import GithubIcon from "@/components/icons/github-icon";
-import Logo from "@/components/logo";
+
 import PictureIcon from "@/components/icons/picture-icon";
 import Spinner from "@/components/spinner";
 import { Button } from "@/components/ui/button";
@@ -108,15 +108,7 @@ export default function Home() {
     activeIndex !== undefined ? generations[activeIndex].image : undefined;
 
   return (
-    <div className="flex h-full flex-col">
-      
-       <div className="relative mt-3 flex h-full flex-col px-5">
-         <header className="flex justify-center pt-20 md:justify-end md:pt-3">
-           <div className="absolute left-1/2 top-6 -translate-x-1/2">
-             <a href="https://togetherai.link" target="_blank">
-               <Logo />
-             </a>
-           </div>
+    
  
           <div>
             <label className="text-xs text-gray-200">
