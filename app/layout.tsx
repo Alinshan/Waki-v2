@@ -13,9 +13,9 @@ const anonymousPro = Anonymous_Pro({
 
 let title = "Waki – Real-Time AI Image Generator";
 let description = "Generate images with AI in a milliseconds";
-let url = "https://github.com/Alinshan/itswaki";
+let url = "https://github.com/Alinshan/Waki-v2";
 let ogimage = "";
-let sitename = "waki.io";
+let sitename = "https://waki-v2-alinshans-projects.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
@@ -50,7 +50,7 @@ export default function RootLayout({
     <html lang="en" className={`h-full ${anonymousPro.variable} font-mono`}>
       <head>
         <meta name="color-scheme" content="dark" />
-        <PlausibleProvider domain="waki.io" />
+        <PlausibleProvider domain="https://waki-v2-alinshans-projects.vercel.app/" />
       </head>
       <body
         className="dark h-full min-h-full bg-[length:6px] font-mono text-gray-100 antialiased"
