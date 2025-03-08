@@ -108,12 +108,6 @@ export default function Home() {
     activeIndex !== undefined ? generations[activeIndex].image : undefined;
 
   return (
-    <div className="flex w-full grow flex-col items-center justify-center pb-8 pt-4 text-center">
-      <header>
-        <h1 className="text-3xl font-bold text-blue-900 md:text-5xl lg:text-6xl">
-          Chandrappan AI
-        </h1>
-      </header>
     
     <div className="flex h-full flex-col">
       
