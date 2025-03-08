@@ -237,6 +237,10 @@ export default function Home() {
           {!activeImage || !prompt ? (
             <div className="max-w-xl md:max-w-4xl lg:max-w-3xl">
               <p className="text-xl font-semibold text-gray-200 md:text-3xl lg:text-4xl">
+                CHANDRAPPAN-AI
+              </p>
+              <div className="max-w-xl md:max-w-4xl lg:max-w-3xl">
+              <p className="text-xl font-semibold text-gray-200 md:text-3xl lg:text-4xl">
                 Generate images in real-time
               </p>
               <p className="mt-4 text-balance text-sm text-gray-300 md:text-base lg:text-lg">
