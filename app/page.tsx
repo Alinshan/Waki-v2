@@ -308,7 +308,7 @@ export default function Home() {
             <p className="hidden whitespace-nowrap md:block">
               100% free and{" "}
               <a
-                href="https://github.com/Alinshan/Waki-v2"
+                href="https://github.com/Alinshan/itswaki"
                 target="_blank"
                 className="underline underline-offset-4 transition hover:text-blue-500"
               >
@@ -317,7 +317,7 @@ export default function Home() {
             </p>
 
             <div className="flex gap-6 md:gap-2">
-              <a href="https://github.com/Alinshan/Waki-v2" target="_blank">
+              <a href="https://github.com/Alinshan/itswaki" target="_blank">
                 <Button
                   variant="outline"
                   size="sm"
