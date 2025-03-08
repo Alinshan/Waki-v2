@@ -14,7 +14,7 @@
 
 ## Cloning & running
 
-1. Clone the repo: `git clone https://github.com/Alinshan/itswaki`
+1. Clone the repo: `git clone https://github.com/Alinshan/Waki-v2`
 2. Create a `.env.local` file and add your [Together AI API key](https://togetherai.link): `TOGETHER_API_KEY=`
 3. Run `npm install` and `npm run dev` to install dependencies and run locally
 
