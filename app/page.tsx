@@ -233,7 +233,7 @@ export default function Home() {
           </form>
         </div>
 <div className="flex w-full grow flex-col items-center justify-center pb-8 pt-4 text-center">
-  <h1 className="text-2xl font-bold text-white md:text-4xl lg:text-5xl">
+  <h1 className="text-2xl font-bold text-blue-900 md:text-4xl lg:text-5xl">
     Chandrappan AI
   </h1>
   {!activeImage || !prompt ? (
@@ -243,7 +243,7 @@ export default function Home() {
       </p>
       <p className="mt-4 text-balance text-sm text-gray-300 md:text-base lg:text-lg">
         Enter a prompt and generate images in milliseconds as you type.
-        Powered by Flux on Together AI.
+        
       </p>
     </div>
           ) : (
