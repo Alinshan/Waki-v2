@@ -108,7 +108,9 @@ export default function Home() {
     activeIndex !== undefined ? generations[activeIndex].image : undefined;
 
   return (
-    
+    <div className="flex h-full flex-col">
+      
+       
  
           <div>
             <label className="text-xs text-gray-200">
