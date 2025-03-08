@@ -2,7 +2,6 @@
 
 import CheckIcon from "@/components/icons/check-icon";
 import GithubIcon from "@/components/icons/github-icon";
-import PictureIcon from "@/components/icons/picture-icon";
 import Logo from "@/components/logo";
 
 import Spinner from "@/components/spinner";
