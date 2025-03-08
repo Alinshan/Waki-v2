@@ -27,6 +27,8 @@ cd Waki-v2
 npm install
 ```
 
+To address all issues, run: ``` npm audit fix --force```
+
 ```
 npm run dev
 ```
