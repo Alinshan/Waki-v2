@@ -232,25 +232,19 @@ export default function Home() {
             </fieldset>
           </form>
         </div>
-
-    <div className="flex w-full grow flex-col items-center justify-center pb-8 pt-4 text-center">
-  {!activeImage || !prompt ? (
-    <div className="max-w-xl md:max-w-4xl lg:max-w-3xl">
-      <p className="text-2xl font-bold text-blue-500 md:text-4xl lg:text-5xl">
-        CHANDRAPPAN-AI
-      </p>
-      <p className="text-xl font-semibold text-gray-200 md:text-3xl lg:text-4xl">
-        Generate images in real-time
-      </p>
-      <p className="mt-4 text-balance text-sm text-gray-300 md:text-base lg:text-lg">
-        Enter a prompt and generate images in milliseconds as you type.
-      </p>
-    </div>
-  ) : null}
-</div>
-
-
+<div className="flex w-full grow flex-col items-center justify-center pb-8 pt-4 text-center">
+          {!activeImage || !prompt ? (
+            <div className="max-w-xl md:max-w-4xl lg:max-w-3xl">
+              <p className="text-xl font-semibold text-gray-200 md:text-3xl lg:text-4xl">
+                Generate images in real-time
+              </p>
+              <p className="mt-4 text-balance text-sm text-gray-300 md:text-base lg:text-lg">
+                Enter a prompt and generate images in milliseconds as you type.
+                Powered by Flux on Together AI.
+              </p>
+            </div>
           ) : (
+    
             <div className="mt-4 flex w-full max-w-4xl flex-col justify-center">
               <div>
                 <Image
